@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 My Next.js Website
 
-## Getting Started
+A professional multi-page website built using **Next.js (App Router)** with TypeScript.
 
-First, run the development server:
+This project demonstrates modern routing, layouts, metadata handling, error boundaries, and responsive UI design.
+
+---
+
+## 📌 Features
+
+- ✅ Next.js App Router
+- ✅ TypeScript (TSX)
+- ✅ Global Layout
+- ✅ Professional Card UI Design
+- ✅ SEO Metadata Support
+- ✅ Client-side Navigation
+- ✅ Redirect after Signup
+- ✅ Global Error Handling
+- ✅ Responsive Design
+- ✅ Clean Folder Structure
+
+---
+
+## 📂 Project Structure
+
+my-app/
+│
+├── app/
+│   ├── layout.tsx        # Root layout (HTML + Body)
+│   ├── globals.css       # Global styles
+│   ├── page.tsx          # Home page
+│   ├── about/
+│   │   └── page.tsx
+│   ├── signup/
+│   │   └── page.tsx
+│   ├── error.tsx         # Global error handler
+│
+├── public/
+├── package.json
+└── README.md
+
+---
+
+## 🛠 Technologies Used
+
+- Next.js 16+
+- React 18+
+- TypeScript
+- CSS (Global Styling)
+- App Router
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+Navigate into the project folder:
+
+cd my-app
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+🧩 Pages Included
+Route	Description
+/	Home Page
+/about	About Page
+/signup	Signup Page with redirect
+Global Error	Error boundary handling
+🔄 Signup Redirect Logic
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+After submitting the signup form, users are redirected to the home page using:
 
-## Learn More
+router.push("/")
+❗ Error Handling
 
-To learn more about Next.js, take a look at the following resources:
+This project includes a global error boundary using:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+app/error.tsx
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+It catches runtime errors and displays a user-friendly message.
 
-## Deploy on Vercel
+📈 SEO Metadata Example
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each page supports metadata like:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+export const metadata = {
+  title: "About Us",
+  description: "Learn more about our company",
+};
+🎨 UI Design
+
+Centered card layout
+
+Flexbox-based vertical & horizontal alignment
+
+Responsive design
+
+Clean professional spacing
+
+Modern typography
+
+🚀 Future Improvements
+
+Authentication system
+
+Database integration
+
+API routes
+
+Dark mode
+
+Deployment to Vercel
+
+Tailwind CSS integration
