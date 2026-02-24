@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 My Next.js Website
 
 A professional multi-page website built using **Next.js (App Router)** with TypeScript.
@@ -129,3 +130,6 @@ Tailwind CSS integration
 =======
 Tailwind CSS integration
 >>>>>>> cb5d04ca0a7a4511f865552b35e35efbc0025ed5
+=======
+# Kreator-Kick
+>>>>>>> d57753a7a12d557901964f07e727beddac82ce29

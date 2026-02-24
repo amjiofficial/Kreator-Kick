@@ -141,45 +141,47 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ */}
-                  <section className="faq">
-                    <p className="faq-label">Got questions?</p>
+    {/* FAQ */}
+                <section className="faq">
+                  <p className="faq-label">Got questions?</p>
 
-                    <div className="faq-item">
-                      <p className="faq-q">What exactly does KreatorKick do?</p>
-                      <p className="faq-a">
-                        KreatorKick is a creator platform that handles the publishing workflow (scheduling, formatting, distribution) and connects you with marketers and brands based on your actual audience.
-                      </p>
-                    </div>
+                  <div className="faq-item">
+                    <p className="faq-q">What is Kreator Kick and who is it for?</p>
+                    <p className="faq-a">
+                      Kreator Kick is a platform designed for content creators &mdash; YouTubers, TikTokers, podcasters, and bloggers &mdash; to focus on creating content while it handles publishing, scheduling, and connecting you to marketers.
+                    </p>
+                  </div>
 
-                    <div className="faq-item">
-                      <p className="faq-q">How is this different from Buffer or Hootsuite?</p>
-                      <p className="faq-a">
-                        Those tools are scheduling tools. KreatorKick is a creator growth platform. Scheduling is just the start &mdash; we also handle the brand connection side that no other tool tackles, turning your audience into real monetization opportunities.
-                      </p>
-                    </div>
+                  <div className="faq-item">
+                    <p className="faq-q">How is this different from Buffer, Hootsuite, or Later?</p>
+                    <p className="faq-a">
+                      Unlike traditional scheduling tools, Kreator Kick not only automates publishing but also connects creators directly with brands for potential deals.
+                    </p>
+                  </div>
 
-                    <div className="faq-item">
-                      <p className="faq-q">What platforms does KreatorKick support?</p>
-                      <p className="faq-a">
-                        We&apos;re launching with Instagram, TikTok, YouTube, and LinkedIn. Twitter/X and Facebook follow shortly after. You asked &mdash; we built it.
-                      </p>
-                    </div>
+                  <div className="faq-item">
+                    <p className="faq-q">How does the marketer connection actually work? Will I really get brand deals?</p>
+                    <p className="faq-a">
+                      Our platform matches you with marketers actively looking for creators in your niche. The system surfaces relevant opportunities so brand deals come to you.
+                    </p>
+                  </div>
 
-                    <div className="faq-item">
-                      <p className="faq-q">Do I need a big audience to join?</p>
-                      <p className="faq-a">
-                        Not at all. We believe in the micro-creator economy. Marketers increasingly want niche, engaged audiences over mass followings. A 5,000-subscriber channel with the right audience is genuinely valuable here.
-                      </p>
-                    </div>
+                  <div className="faq-item">
+                    <p className="faq-q">What platforms does Kreator Kick support?</p>
+                    <p className="faq-a">
+                      You can publish to YouTube, TikTok, Instagram, blogs, and podcasts &mdash; all from one dashboard.
+                    </p>
+                  </div>
 
-                    <div className="faq-item">
-                      <p className="faq-q">When does KreatorKick launch and how do I get in early?</p>
-                      <p className="faq-a">
-                        We&apos;re opening early access in waves. Join the waitlist above and you&apos;ll be first. Early members get free access to premium features for the first 3 months after launch.
-                      </p>
-                    </div>
-                  </section>
+                  <div className="faq-item">
+                    <p className="faq-q">When does it launch and how do I get early access?</p>
+                    <p className="faq-a">
+                      Sign up via the email form on our coming soon page to get early access before the public launch.
+                    </p>
+                  </div>
+                </section>
+
+                
 
       {/* BOTTOM CTA */}
       <section className="bottom-cta">
