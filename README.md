@@ -1,135 +1,121 @@
-<<<<<<< HEAD
-# 🚀 My Next.js Website
+# Kreator Kick
 
-A professional multi-page website built using **Next.js (App Router)** with TypeScript.
+## Overview
 
-This project demonstrates modern routing, layouts, metadata handling, error boundaries, and responsive UI design.
+Kreator Kick is a creator-focused publishing platform designed to remove
+the heavy lifting of content distribution while connecting creators
+directly with marketers. It enables creators to focus on what they do
+best --- creating content --- while automation handles the rest.
 
----
+------------------------------------------------------------------------
 
-## 📌 Features
+## Product Positioning
 
-- ✅ Next.js App Router
-- ✅ TypeScript (TSX)
-- ✅ Global Layout
-- ✅ Professional Card UI Design
-- ✅ SEO Metadata Support
-- ✅ Client-side Navigation
-- ✅ Redirect after Signup
-- ✅ Global Error Handling
-- ✅ Responsive Design
-- ✅ Clean Folder Structure
+**Kreator Kick removes the heavy lifting of publishing so creators can
+focus on their content, while connecting them to the right marketers.**
 
----
+------------------------------------------------------------------------
 
-## 📂 Project Structure
+## Target Audience
 
-my-app/
-│
-├── app/
-│   ├── layout.tsx        # Root layout (HTML + Body)
-│   ├── globals.css       # Global styles
-│   ├── page.tsx          # Home page
-│   ├── about/
-│   │   └── page.tsx
-│   ├── signup/
-│   │   └── page.tsx
-│   ├── error.tsx         # Global error handler
-│
-├── public/
-├── package.json
-└── README.md
+-   YouTubers
+-   TikTok creators
+-   Podcasters
+-   Bloggers
+-   Independent digital creators seeking brand partnerships
 
----
+------------------------------------------------------------------------
 
-## 🛠 Technologies Used
+## Core Value Proposition
 
-- Next.js 16+
-- React 18+
-- TypeScript
-- CSS (Global Styling)
-- App Router
+-   Automate publishing workflows
+-   Eliminate scheduling complexity
+-   Connect creators directly with marketers
+-   Unlock monetization opportunities
 
----
+------------------------------------------------------------------------
 
-## ⚙️ Installation
+## Landing Page Structure
 
-Clone the repository:
+1.  Hero Section
+    -   Product name\
+    -   Subheadline\
+    -   Email capture form ("Join the Waitlist")
+2.  Feature Section
+    -   Publish in Minutes\
+    -   Centralized Dashboard\
+    -   Marketer Connection
+3.  Secondary Email Capture
+    -   Reinforce early access sign-up
+4.  Footer
+    -   Social links (TikTok, Instagram, YouTube, LinkedIn)
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
+------------------------------------------------------------------------
 
-Navigate into the project folder:
+## FAQs
 
-cd my-app
+### 1. What is Kreator Kick and who is it for?
 
-Install dependencies:
+Kreator Kick is a publishing and brand-connection platform built for
+content creators who want to simplify their workflow and monetize their
+content.
 
-npm install
+### 2. How is this different from Buffer, Hootsuite, or Later?
 
-Run the development server:
+Unlike traditional scheduling tools, Kreator Kick combines publishing
+automation with direct marketer connections.
 
-npm run dev
+### 3. How does the marketer connection work?
 
-Open in browser:
+Creators are matched with marketers seeking content in their niche,
+increasing the likelihood of relevant brand collaborations.
 
-http://localhost:3000
-🧩 Pages Included
-Route	Description
-/	Home Page
-/about	About Page
-/signup	Signup Page with redirect
-Global Error	Error boundary handling
-🔄 Signup Redirect Logic
+### 4. What platforms are supported?
 
-After submitting the signup form, users are redirected to the home page using:
+YouTube, TikTok, Instagram, blogs, and podcasts (expanding soon).
 
-router.push("/")
-❗ Error Handling
+### 5. How do I get early access?
 
-This project includes a global error boundary using:
+Sign up on the landing page to join the waitlist.
 
-app/error.tsx
+------------------------------------------------------------------------
 
-It catches runtime errors and displays a user-friendly message.
+## Social Media Content Strategy
 
-📈 SEO Metadata Example
+### Core Themes
 
-Each page supports metadata like:
+1.  Creator burnout from manual publishing
+2.  Automation as freedom
+3.  Brand deals made easier
+4.  Monetization made accessible
+5.  Early access urgency
 
-export const metadata = {
-  title: "About Us",
-  description: "Learn more about our company",
-};
-🎨 UI Design
+------------------------------------------------------------------------
 
-Centered card layout
+## Tech & UX Review Focus
 
-Flexbox-based vertical & horizontal alignment
+### User Journey
 
-Responsive design
+Onboarding → Publishing Setup → Automation → Marketer Matching
 
-Clean professional spacing
+### Key UX Considerations
 
-Modern typography
+-   Simple onboarding
+-   Clear monetization explanation
+-   Transparent marketer connection process
+-   Minimal dashboard friction
 
-🚀 Future Improvements
+------------------------------------------------------------------------
 
-Authentication system
+## Next Steps
 
-Database integration
+-   Continue refining onboarding UX
+-   Validate marketer matching logic
+-   Expand supported platforms
+-   Prepare for beta launch
 
-API routes
+------------------------------------------------------------------------
 
-Dark mode
+## Status
 
-Deployment to Vercel
-
-<<<<<<< HEAD
-Tailwind CSS integration
-=======
-Tailwind CSS integration
->>>>>>> cb5d04ca0a7a4511f865552b35e35efbc0025ed5
-=======
-# Kreator-Kick
->>>>>>> d57753a7a12d557901964f07e727beddac82ce29
+Coming Soon --- Waitlist Open 🚀
